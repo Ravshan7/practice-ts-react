@@ -22,3 +22,8 @@
 .activeTodo span {
     text-decoration: line-through;
 }
+
+
+.activeLink {
+    font-weight: bold;
+}

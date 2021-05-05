@@ -16,7 +16,7 @@ export const App: React.FC = () => {
             <div className="container">
                 <Switch>
                     <Route path="/" exact render={() => <TodoPage /> } />
-                    <Route path="/about/:id?" exact render={() => <AboutPage /> } />
+                    <Route path="/about" exact render={() => <AboutPage /> } />
                 </Switch>
             </div>
         </BrowserRouter>
